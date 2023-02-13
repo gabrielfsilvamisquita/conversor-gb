@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="css/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <title>GigaView</title>
+</head>
+<body>
+    <main>
+        <div class="espaco">
+            <!--Quantidade em Gb-->
+            <input class="input" id="quantidade" type="number" placeholder="Quantos Gb">
+            <!--O tipo de Dado a ser convertido-->
+            <select class="input" id="tipo">
+                <option value="shakespeare">Obras de Shakespeare</option>
+                <option value="romance">Livros de Romance</option>
+                <option value="wikipedia">Banco de Dados da Wikipedia</option>
+            </select>
+            <button class="input" id="confirma">OK</button>
+        </div>
+        <div class="espaco">
+            <img id="imagem" src="imagens/wikipedia.jpg" alt="Imagem">
+            <p id="escrita"></p>
+        </div>
+
+        <footer><p>Gabriel Felipe</p></footer>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="js/calculo.js"></script>
+</body>
+</html>
